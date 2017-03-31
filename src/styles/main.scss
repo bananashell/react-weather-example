@@ -1,0 +1,5 @@
+.temperature {
+    &:not(:empty):after {
+        content: '°'
+    }
+}
